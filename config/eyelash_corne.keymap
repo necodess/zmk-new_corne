@@ -54,10 +54,10 @@
         default_layer {
             display-name = "henlo";
             bindings = <
-&kp TAB           &kp Q       &kp W           &kp E         &kp R               &kp T                              &kp UP                &kp Y        &kp U               &kp I        &kp O           &kp P          &kp BSPC
-&kp LEFT_CONTROL  &mt LWIN A  &mt LEFT_ALT S  &mt LSHIFT D  &mt LEFT_CONTROL F  &kp G                    &kp LEFT  &kp SPACE  &kp RIGHT  &kp H        &mt LEFT_CONTROL J  &mt LSHFT K  &mt LEFT_ALT L  &mt RWIN SEMI  &kp SQT
-&kp LEFT_SHIFT    &kp Z       &kp X           &kp C         &kp V               &kp B      &kp C_MUTE              &kp DOWN              &kp N        &kp M               &kp COMMA    &kp DOT         &kp FSLH       &kp ESC
-                                              &kp LGUI      &mo 1               &kp SPACE                                                &lt 3 ENTER  &mo 2               &kp RALT
+&kp TAB           &kp Q  &kp W  &kp E     &kp R  &kp T                              &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&kp LEFT_CONTROL  &kp A  &kp S  &kp D     &kp F  &kp G                    &kp LEFT  &kp SPACE  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LEFT_SHIFT    &kp Z  &kp X  &kp C     &kp V  &kp B      &kp C_MUTE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
+                                &kp LGUI  &mo 1  &kp SPACE                                                &lt 3 ENTER  &mo 2  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
